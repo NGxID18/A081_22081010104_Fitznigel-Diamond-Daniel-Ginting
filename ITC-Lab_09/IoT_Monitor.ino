@@ -1,13 +1,3 @@
-/*********************************************************************************
- * Program   : PID-iTCLab Monitoring Using IoT
- * By        : Assoc. Prof. Dr. Basuki Rahmat, S.Si, MT, ITS-AI,
- *             Assoc. Prof. Dr. Muljono, S.Si, M.Kom, et al
- * Pro. Team : i-ot.net, io-t.net
- * R. Group  : Intelligent Control, Robotics and Automation Systems Research Group
- * Univ.     : Universitas Pembangunan Nasional "Veteran" Jawa Timur
- * Country   : Indonesia
- *********************************************************************************/
-
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <Arduino.h>
