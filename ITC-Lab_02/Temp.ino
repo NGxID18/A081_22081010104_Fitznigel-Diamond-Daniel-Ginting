@@ -1,28 +1,24 @@
 #include <Arduino.h>
 
-// constants
 const int baud = 115200;       // serial baud rate
 
-// pin numbers corresponding to signals on the iTCLab Shield
 const int pinT1   = 34;         // T1
 const int pinT2   = 35;         // T2
 const int pinQ1   = 32;         // Q1
 const int pinQ2   = 33;         // Q2
 const int pinLED  = 26;         // LED
 
-// setting PWM properties
-const int freq = 5000; //5000
+const int freq = 5000;
 const int ledChannel = 0;
 const int Q1Channel = 1;
 const int Q2Channel = 2;
-const int resolutionLedChannel = 8; //Resolution 8, 10, 12, 15
-const int resolutionQ1Channel = 8; //Resolution 8, 10, 12, 15
-const int resolutionQ2Channel = 8; //Resolution 8, 10, 12, 15
+const int resolutionLedChannel = 8;
+const int resolutionQ1Channel = 8;
+const int resolutionQ2Channel = 8;
 
 float cel, cel1, degC, degC1;
 const float upper_temperature_limit = 55;
 
-// global variables
 float Q1 = 0;                 // value written to Q1 pin
 float Q2 = 0;                 // value written to Q2 pin
 int iwrite_max = 255;          // integer value for writing
