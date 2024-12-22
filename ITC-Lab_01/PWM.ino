@@ -1,4 +1,4 @@
-
+// the number of the LED pin
 const int ledPin = 26;
 
 // setting PWM properties

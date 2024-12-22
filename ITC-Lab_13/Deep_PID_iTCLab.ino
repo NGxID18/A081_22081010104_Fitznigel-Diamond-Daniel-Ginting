@@ -1,24 +1,4 @@
-/*
-  iTCLab Internet-Based Temperature Control Lab Firmware
-  Jeffrey Kantor, Initial Version
-  John Hedengren, Modified
-  Oct 2017
-  Basuki Rahmat, Modified
-  April 2022
 
-  This firmware is loaded into the Internet-Based Temperature Control Laboratory ESP32 to
-  provide a high level interface to the Internet-Based Temperature Control Lab. The firmware
-  scans the serial port looking for case-insensitive commands:
-
-  Q1        set Heater 1, range 0 to 100% subject to limit (0-255 int)
-  Q2        set Heater 2, range 0 to 100% subject to limit (0-255 int)
-  T1        get Temperature T1, returns deg C as string
-  T2        get Temperature T2, returns dec C as string
-  VER       get firmware version string
-  X         stop, enter sleep mode
-
-  Limits on the heater can be configured with the constants below.
-*/
 
 #include <Arduino.h>
 
